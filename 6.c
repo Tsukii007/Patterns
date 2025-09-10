@@ -13,6 +13,7 @@ void pattern6(int N)
 }
 int main()
 {
+    int N;
     printf("Enter Number of Rows: ");
     scanf("%d",&N);
     pattern6(N);
