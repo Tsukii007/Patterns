@@ -1,5 +1,5 @@
 #include <stdio.h>
-void pattern5(int N) {
+void pattern6(int N) {
     for (int i = 0; i < N; i++) {
         for (int j = N; j > i; j--) {
             printf("j ");
@@ -11,6 +11,6 @@ int main() {
     int N;
     printf("Enter number of rows: ");
     scanf("%d", &N);
-    pattern5(N);
+    pattern6(N);
     return 0;
 }
